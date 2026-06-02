@@ -1,0 +1,33 @@
+id: primer-author-introducti-b9f7rk3i
+title: Introduction to Linux
+tags: ["de", "data-engineer"]
+
+objective:
+  los:
+    - key: lo-1
+      value: Explain the basic Linux commands necessary to do basic file operations and data exploration through those files
+
+content:
+  sections:
+    - heading: Linux Commands
+      content:
+        - id: 1
+          type: TEXT
+          content: content/primer_intro_to_linux/001_linux_commands.md
+      slug: chapter-1
+    - heading: Examples
+      content:
+        - id: 2
+          type: TEXT
+          content: content/primer_intro_to_linux/002_examples.md
+      slug: chapter-2
+    - heading: Helpful Links
+      content:
+        - id: 3
+          type: TEXT
+          content: content/primer_intro_to_linux/003_helpful_links.md
+      slug: chapter-3
+
+conclusion:
+  eoslink: ''
+  remarks: content/primer_intro_to_linux/summary.md
