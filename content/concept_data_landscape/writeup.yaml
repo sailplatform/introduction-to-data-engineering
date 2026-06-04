@@ -1,25 +1,28 @@
 id: concept-author-data-lands-f8nyfvou
 title: Data Landscape
-tags: ["de", "data engineer"]
-
+tags:
+- de
+- data engineer
 objective:
   los:
-  - key: lo-1
-    value: Describe the evolution of data types and data's economic value.
-  - key: lo-2
-    value: Explore the impact of data on various industries and the importance of data-driven decision making.
-  - key: lo-3
+  - key: lo-QzDPb
+    value: Describe the evolution of data types and data’s economic value.
+  - key: lo-htCPv
+    value: Explore the impact of data on various industries and the importance of
+      data-driven decision making.
+  - key: lo-b1aKM
     value: Explore the concepts of structure, dynamicity and granularity of data.
-  - key: lo-4
+  - key: lo-7b5Lq
     value: Explore the various types of data and data access patterns.
-  - key: lo-5
-    value: Describe the data science life cycle, its phases and articulate the interaction between them to inform the development of analytic solutions.
-  - key: lo-6
-    value: Discuss data security, privacy and compliance requirements in data science.
-  - key: lo-7
-    value: Describe the role of a data engineer and the increasing necessity, demand for the role in various industries.
+  - key: lo-aygXr
+    value: Describe the data science life cycle, its phases and articulate the interaction
+      between them to inform the development of analytic solutions.
+  - key: lo-oYSpr
+    value: 'Discuss data security, privacy and compliance requirements in data science. '
+  - key: lo-f4A2y
+    value: Describe the role of a data engineer and the increasing necessity, demand
+      for the role in various industries.
   content: content/concept_data_landscape/intro.md
-
 content:
   sections:
   - heading: Data and Decision Making
@@ -29,8 +32,8 @@ content:
       content: content/concept_data_landscape/001_data_and_decision_making.md
     slug: chapter-1
     los:
-    - lo-1
-    - lo-2
+    - lo-QzDPb
+    - lo-htCPv
   - heading: Data Properties
     content:
     - id: 2
@@ -38,7 +41,7 @@ content:
       content: content/concept_data_landscape/002_data_properties.md
     slug: chapter-2
     los:
-    - lo-3
+    - lo-b1aKM
   - heading: Types of Data and Data Access Patterns
     content:
     - id: 3
@@ -46,7 +49,7 @@ content:
       content: content/concept_data_landscape/003_types_of_data_and_data_access_patterns.md
     slug: chapter-3
     los:
-    - lo-4
+    - lo-7b5Lq
   - heading: Data Science Life Cycle
     content:
     - id: 4
@@ -54,7 +57,7 @@ content:
       content: content/concept_data_landscape/004_data_science_life_cycle.md
     slug: chapter-4
     los:
-    - lo-5
+    - lo-aygXr
   - heading: Role of Data Engineer
     content:
     - id: 5
@@ -62,9 +65,8 @@ content:
       content: content/concept_data_landscape/005_role_of_data_engineer.md
     slug: chapter-5
     los:
-    - lo-6
-    - lo-7
-
+    - lo-oYSpr
+    - lo-f4A2y
 conclusion:
   eoslink: ''
   remarks: content/concept_data_landscape/summary.md
